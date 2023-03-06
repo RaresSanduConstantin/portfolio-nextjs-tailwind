@@ -1,16 +1,16 @@
 import Link from 'next/link';
 
 const Footer = () => (
-  <footer className='bg-gray-900 text-white p-4 grid grid-cols-2 content-end text-center'>
-    <span className='text-start'>
-      <Link href='/'>
-        <span className='text-white text-base my-10 mx-10 px-1 py-1'>Home</span>
-      </Link>
+<footer className="bg-black text-white p-6 flex justify-between items-center">
+  <span className="text-teal-400 text-3xl font-bold">Rares Sandu</span>
+  <div className="text-gray-700 text-xl">
+    <span className="mx-4 hover:text-teal-400 transition duration-300">
+      <Link href="/">Home</Link>
     </span>
-    <span className='text-end mr-10'>
-      <p>Made with love by Rares</p>
-    </span>
-  </footer>
+    <span>Made with ❤ by Rares</span>
+  </div>
+</footer>
+
 );
 
 export default Footer;
